@@ -47,13 +47,26 @@ Project for building multi-media reports for medical imaging
         * Text
         * Hyperlink
         * Image
-* Ability to display contact information (e.g. for DM, voice or video)
-  * Reporting physician
-  * Primary care physican
-  * Other related staff?
-* Ability to display relevant resources
-  * Links to journal articles
-  * Links to internal information
+* Hyperlinks
+  * Image display (dedicated viewport that respods to redirects from interaction with report)
+    * Key Images
+      * Specific instanceUID in context of parent series
+      * Specific frame within mulitframe image
+      * Time point in a video (+/- scope)
+    * Presentation States
+      * image with specific W/L
+      * arrow, circle or other graphics primative defined in PS
+      * DICOM Planar MPR Volumetric Presentation State (Bookmark of custom MPR)
+    * Structured Report Object
+      * Segmentation
+      * Parametric map
+  * External Resources
+    * Ability to display contact information (e.g. for DM, voice or video)
+      * Reporting physician
+      * Primary care physican
+      * Other related staff?
+    * Links to journal articles
+    * Links to internal information
 * Configurable Layouts (e.g. 2x1, 4x4)
   * Width/Height
     * Fixed Size
